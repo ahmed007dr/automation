@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 # to print dir list for libary
 #print(dir(os))
@@ -33,12 +34,15 @@ import os
 
 
 #state folder
-print(os.stat('req.txt').st_size)
+# print(os.stat('req.txt').st_size)
 
-from datetime import datetime
-print(datetime.fromtimestamp(os.path.getctime('req.txt')))
-
-
+#from datetime import datetime
+# print(datetime.fromtimestamp(os.path.getctime('req.txt')))
 
 
+for dirpath , dirnames , filenames in os.walk('.'):
+    print(dirpath)
 
+#dirpath           all path
+#dirname           all name
+#filename          all name
