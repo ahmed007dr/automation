@@ -24,5 +24,20 @@ import os
 #os.rmdir('test')   # remove single folder
 
 #remove mult folder
-os.removedirs('python/basics')    # remove multi folders
+#os.removedirs('python')    # remove multi folders
+
+
+# rename folder
+os.rename("old_name", "new_name")
+
+
+
+
+
+
+
+
+
+
+
 
