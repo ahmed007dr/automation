@@ -21,6 +21,8 @@ import pyautogui
 
 #pyautogui.screenshot('test.png')
 
-pyautogui.confirm('are u ready ')
+# pyautogui.confirm('are u ready ')
 
-pyautogui.alert('ur Download completed')
+# pyautogui.alert('ur Download completed')
+
+# pyautogui.prompt('plase enter ur name : ')
