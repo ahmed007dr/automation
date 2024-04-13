@@ -14,7 +14,10 @@ import os
 # os.chdir('C:') # change it to your directory
 
 #create empty file
-os.mkdir('test')
+#os.mkdir('test')
+
+#create folder with path
+os.makedirs('python/basics')
 
 
 
