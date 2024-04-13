@@ -8,6 +8,7 @@ import os
 
 # #shut Down pc
 # os.system('shutdown /s')
+#os.system('shutdown /s /t 0')
 
 
 # #restart
