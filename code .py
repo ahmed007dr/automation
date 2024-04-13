@@ -10,11 +10,11 @@ import os
 #print(os.listdir()) 
 
 #change currenty dir
-print(os.getcwd())
-os.chdir('C:') # change it to your directory
-print(os.getcwd())
+# print(os.getcwd())
+# os.chdir('C:') # change it to your directory
 
-
+#create empty file
+os.mkdir('test')
 
 
 
