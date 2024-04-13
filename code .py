@@ -40,9 +40,12 @@ from datetime import datetime
 # print(datetime.fromtimestamp(os.path.getctime('req.txt')))
 
 
-for dirpath , dirnames , filenames in os.walk('.'):
-    print(dirpath)
+# for dirpath , dirnames , filenames in os.walk('.'):
+#     print(dirpath)
 
-#dirpath           all path
-#dirname           all name
-#filename          all name
+# #dirpath           all path
+# #dirname           all name
+# #filename          all name
+
+#SEARCH UR HOME PAGEE IS OS
+print (os.environ.get('HOME'))
