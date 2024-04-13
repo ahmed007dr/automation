@@ -28,11 +28,12 @@ import os
 
 
 # rename folder
-os.rename("old_name", "new_name")
+#os.rename("old_name", "new_name")
 
 
 
-
+#state folder
+print(os.stat('req.txt'))
 
 
 
