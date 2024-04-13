@@ -15,9 +15,12 @@ import pyautogui
 # pyautogui.moveTo(700,700)
 
 #keybord  ( word + secnd)
-pyautogui.typewrite('ahmed mohamed abdelahmed el said embabi',4)
+#pyautogui.typewrite('ahmed mohamed abdelahmed el said embabi',4)
 
-pyautogui.hotkey('ctrl','space')
+#pyautogui.hotkey('ctrl','space')
 
-pyautogui.screenshot('test.png')
+#pyautogui.screenshot('test.png')
 
+pyautogui.confirm('are u ready ')
+
+pyautogui.alert('ur Download completed')
