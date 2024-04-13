@@ -17,8 +17,10 @@ import os
 #os.mkdir('test')
 
 #create folder with path
-os.makedirs('python/basics')
+#os.makedirs('python/basics')
 
 
+#remove dir 
+os.rmdir('test')   # remove single folder
 
 
