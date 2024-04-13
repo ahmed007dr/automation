@@ -7,4 +7,15 @@ import os
 #print(os.getcwd())
 
 #list in curreny dir
-print(os.listdir()) 
+#print(os.listdir()) 
+
+#change currenty dir
+print(os.getcwd())
+os.chdir('C:') # change it to your directory
+print(os.getcwd())
+
+
+
+
+
+
