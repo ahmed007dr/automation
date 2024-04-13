@@ -51,15 +51,16 @@ from datetime import datetime
 # print (os.environ.get('HOME'))
 
 
-#last file in path
-path = 'test/python/test.txt'
-print ('File last path :', os.path.basename(path))  
-#last folder with dirname
-print ('last file  :', os.path.dirname(path))      
-# split type file
-print ('File exists :', os.path.splitext(path))      
-#make sure path is true
-print ('File true :', os.path.exists(path))      
+# #last file in path
+# path = 'test/python/test.txt'
+# print ('File last path :', os.path.basename(path))  
+# #last folder with dirname
+# print ('last file  :', os.path.dirname(path))      
+# # split type file
+# print ('File exists :', os.path.splitext(path))      
+# #make sure path is true
+# print ('File true :', os.path.exists(path))      
 
-print ('File folder not :', os.path.isfile(path))      
-print ('Folder True :', os.path.isdir(path))       
+# print ('File folder not :', os.path.isfile(path))      
+# print ('Folder True :', os.path.isdir(path))       
+
