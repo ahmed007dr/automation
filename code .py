@@ -33,10 +33,10 @@ import os
 
 
 #state folder
-print(os.stat('req.txt'))
+print(os.stat('req.txt').st_size)
 
-
-
+from datetime import datetime
+print(datetime.fromtimestamp(os.path.getctime('req.txt')))
 
 
 
