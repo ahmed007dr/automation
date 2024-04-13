@@ -4,4 +4,7 @@ import os
 #print(dir(os))
 
 # The current path to the file
-print(os.getcwd())
+#print(os.getcwd())
+
+#list in curreny dir
+print(os.listdir()) 
