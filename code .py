@@ -21,6 +21,8 @@ import os
 
 
 #remove dir 
-os.rmdir('test')   # remove single folder
+#os.rmdir('test')   # remove single folder
 
+#remove mult folder
+os.removedirs('python/basics')    # remove multi folders
 
